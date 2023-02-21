@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos</title>
+
+    <link rel="stylesheet" href="./global.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>HOME</li>
+                </a>
+                <li>
+                    <a href="./html.html">HTML</a>
+                </li>
+                <li>
+                    <a href="./css.html">CSS</a>
+                </li>
+                <li>
+                    <a href="./js.html">JAVASCRIPT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HTML</h1>
+
+        <p>HyperText Markup Language (Linguagem de Marcação de HiperTexto), é o bloco de construção básico da Web. É o que define a estrutura e o significado do conteúdo inserido na web.</p>
+        <p>"HiperTexto" são os links que conectam páginas da web entre si, seja dentro do próprio site ou outros sites, que são chamados de links externos. <a href="https://google.com">Isto</a> é um link, normalmente eles tem a cor azul e são sublinhados, porém conseguimos alterar o estilo dos links através de outra tecnologia, chamada CSS.</p>
+
+        <h2>HTML Semântico</h2>
+
+        <p>Hoje em dia, a tecnologia HTML não serve apenas para estruturar o conteúdo na web, mas também informa o significado do conteúdo que está presente nos documentos através de tags semânticas. Dessa forma, fica mais claro tanto para desenvolvedores quanto para os browsers e outras engines processarem as informações.</p>
+        <p>Logo abaixo apresentamos as principais tags semânticas:</p>
+        <h3>Tags</h3>
+        <ul>
+            <li><a href="#header">&lt;header&gt;</a></li>
+            <li><a href="#section">&lt;section&gt;</a></li>
+            <li><a href="#article">&lt;article&gt;</a></li>
+            <li><a href="#nav">&lt;nav&gt;</a></li>
+            <li><a href="#aside">&lt;aside&gt;</a></li>
+            <li><a href="#main">&lt;main&gt;</a></li>
+            <li><a href="#figure">&lt;figure&gt;</a></li>
+            <li><a href="#footer">&lt;footer&gt;</a></li>
+            <li><a href="#a">&lt;a&gt;</a></li>
+            <li><a href="#strong">&lt;strong&gt;</a></li>
+        </ul>
+        <h2>Exemplos</h2>
+        <div class="example-box" id="header">
+            <h3>header</h3>
+            <p>Header é usado para representar o cabeçalho da página ou de uma seção. Dentro dessa tag podemos inserir vários elementos, para representar títulos, imagens, parágrafos ou até mesmo listas.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-header.png" alt="Exemplo de código da tag header.">
+        </div>
+        <div class="example-box" id="section">
+            <h3>section</h3>
+            <p>Representa uma seção dentro de um documento html e geralmente contém um título.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-section.png" alt="Exemplo de código da tag section.">
+        </div>
+        <div class="example-box" id="article">
+            <h3>article</h3>
+            <p>Utilizamos o article quando precisamos colocar um conteúdo que não precisa de outro para fazer sentido.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-article.png" alt="Exemplo de código da tag article.">
+        </div>
+        <div class="example-box" id="nav">
+            <h3>nav</h3>
+            <p>A tag nav é utilizada para representar um grupo de links de navegação, que normalmente são criadas com &lt;ul&gt;, &lt;li&gt; e &lt;a&gt;.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-nav.png" alt="Exemplo de código da tag nav.">
+        </div>
+        <div class="example-box" id="aside">
+            <h3>aside</h3>
+            <p>Utilizado quando precisamos criar um conteúdo de apoio ao conteúdo principal.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-aside.png" alt="Exemplo de código da tag aside.">
+        </div>
+        <div class="example-box" id="main">
+            <h3>main</h3>
+            <p>Especifica qual o conteúdo principal da página e que tem maior relevância. Uma página deve apresentar apenas um conteúdo principal.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-main.png" alt="Exemplo de código da tag main.">
+        </div>
+        <div class="example-box" id="figure">
+            <h3>figure</h3>
+            <p>Usado para a inserção de uma figura. Podemos incluir uma descrição, utilizando a tag figcaption.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-figure.png" alt="Exemplo de código da tag figure.">
+        </div>
+        <div class="example-box" id="footer">
+            <h3>footer</h3>
+            <p>Representa o rodapé da página. Normalmente contém informações de autoria, como nome, e contato do autor.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-footer.png" alt="Exemplo de código da tag footer.">
+        </div>
+
+        <h2>Semântica no nivel do texto.</h2>
+
+        <p>Além da semântica estrutural, também temos semântica para os textos, dessa forma podemos descrever o significado de um certo conteúdo. Alguns exemplos são: Negrito, Itálico, Links e entre outros.</p>
+        <div class="example-box" id="a">
+            <h3>a</h3>
+            <p>Descreve um link, conectando diversos documentos, podendo ser páginas externas ou do mesmo documento.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-a.png" alt="Exemplo de código da tag a.">
+        </div>
+        <div class="example-box" id="strong">
+            <h3>strong</h3>
+            <p>Transforma um texto em negrito, deixando o conteúdo mais destacado.</p>
+            <h4>Exemplo prático:</h4>
+            <img src="./assets/images/example-strong.png" alt="Exemplo de código da tag strong.">
+        </div>
+    </main>
+    <footer>
+        <div class="social-media">
+            <img src="./assets/images/instagram.svg" alt="Icone Instagram">
+            <img src="./assets/images/linkedin.svg" alt="Icone LinkedIn">
+            <img src="./assets/images/tiktok.svg" alt="Icone TikTok">
+        </div>
+        <hr>
+        <p>&#169; <span id="current-year"></span> - Lucas Vieira</p>
+    </footer>
+</body>
+</html>
